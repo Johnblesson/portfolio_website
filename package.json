@@ -1,0 +1,17 @@
+{
+  "name": "portfolio_website",
+  "version": "1.0.0",
+  "description": "I have build a responsive website that will display images. links and description. This is my first portfolio project.",
+  "main": "index.js",
+  "homepage": "https://johnblesson.github.io/portfolio_website",
+  "scripts": {
+    "sass": "node-sass -w scss/ -o dist/css/ --recursive",
+    "deploy": "gh-pages -d dist"
+  },
+  "author": "John Blesson Rowe",
+  "license": "ISC",
+  "dependencies": {
+    "gh-pages": "^6.0.0",
+    "node-sass": "^9.0.0"
+  }
+}
